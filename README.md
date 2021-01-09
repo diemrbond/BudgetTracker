@@ -1,63 +1,78 @@
-# Unit 18 PWA Homework: Online/Offline Budget Trackers
+# Online/Offline Budget Tracker
 
-Add functionality to our existing Budget Tracker application to allow for offline access and functionality.
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+## Description 
+  For this project, we needed to add functionality to an existing budget tracker application to allow for offline access and functionality. Using indexedDB, service workers and other functionality the application should cache the website, record transactions and then publish back to the mongoDB when online.
 
-The user will be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online.
-
-Offline Functionality:
-
-  * Enter deposits offline
-
-  * Enter expenses offline
-
-When brought back online:
-
-  * Offline entries should be added to tracker.
-
+```
 ## User Story
 AS AN avid traveller
 I WANT to be able to track my withdrawals and deposits with or without a data/internet connection
 SO THAT my account balance is accurate when I am traveling
+```
 
-## Business Context
+<img src="assets/img/screenshot.jpg" width="600" /> <br>
 
-Giving users a fast and easy way to track their money is important, but allowing them to access that information anytime is even more important. Having offline functionality is paramount to our applications success.
+<img src="assets/img/demo.gif" width="600" /> <br>
 
 
-## Acceptance Criteria
-GIVEN a user is on Budget App without an internet connection
-WHEN the user inputs a withdrawal or deposit
-THEN that will be shown on the page, and added to their transaction history when their connection is back online.
 
-- - -
+  ---
+  ## Deployed Application 
+  https://andrewhasabudget.herokuapp.com/
+    
 
-## Commit Early and Often
+  ---
+  ## Table of Contents
 
-* One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Contributing](#contributing)
+  * [Tests](#tests)
+  * [Credits](#credits)
+  * [License](#license)
+  * [Questions](#questions)
 
-1. Your commit history is a signal to employers that you are actively working on projects and learning new skills
 
-2. Your commit history allows you to revert your code base in the event that you need to return to a previous state
 
-* Follow these guidelines for committing:
+  ---
+  ## Installation 
+  1. `git clone https://github.com/diemrbond/BudgetTracker` 
+  2. `npm install`
 
-  * Make single purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits
 
-  * Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history
+  
+  ---
+  ## Usage 
+  1. `npm server.js`
+  OR
+  1. https://andrewhasabudget.herokuapp.com/
 
-  * Don't commit half done work, for the sake of your collaborators (and your future self!)
 
-  * Test your application before you commit to ensure functionality at every step in the development process
 
-* We would like you to have well over 200 commits by graduation, so commit early and often!
+  ---
+  ## License 
+  This application is licensed under: GNU GPLv3
+  
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
-* Deploy your application with [Heroku and MongoDB Atlas.](../04-Important/MongoAtlas-Deploy.md)
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
 
-## Submission on BCS
+You should have received a copy of the GNU General Public License along with this program. If not, see <https://www.gnu.org/licenses/>.
 
-* You are required to submit the following:
 
-  * the URL to the deployed application
+  
+  ---
+  ## Questions
+  If you have any questions about this project, please feel free to contact me via the following information:
 
-  * the URL to the Github repository
+  <img src="https://avatars3.githubusercontent.com/u/32446328?v=4" width="50" />
 
+  Andrew Kelleher
+
+  Github: https://github.com/diemrbond
+
+  Email: [mrbondmustdie@gmail.com](mailto:mrbondmustdie@gmail.com)
+
+  ---
+  © 2021 Andrew Kelleher | https://diemrbond.github.io/
